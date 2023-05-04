@@ -520,16 +520,28 @@ body{
       
                      }
                   .footer p{
-                    display: flex;
-                    gap: 40px;
+                    display:flex;
+                    text-align: center;
+                    gap:40px ;
                     font-size: 0.7rem;
                     color: rgba(255, 255, 255, 0.585);
-                    flex-wrap: wrap;
+                  
                   }
+                  @media screen and ( max-width:600px ){
+                    .footer p{
+                      flex-wrap:wrap;
+                      gap: 10px;
+                      justify-content: center;
+                    }
+                  }
+            
                        .footer a{
-                      color: white;
+                      
+                        color: white;
                       text-decoration: none;
                       font-size: 0.8rem;
+                      
+
                       
                     }
                     .button{
